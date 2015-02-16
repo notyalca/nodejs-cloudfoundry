@@ -10,6 +10,15 @@ server.route({
     }
 });
 
+server.route({
+    method: 'GET',
+    path: '/health',
+    handler: function (request, reply) {
+        reply({"status":"healthy"});
+    }
+});
+
+
 server.start(function () {
     console.log('Server running at: ', server.info.uri);
 });
