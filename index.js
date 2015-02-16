@@ -1,6 +1,6 @@
 var Hapi = require('hapi');
 
-var server = new Hapi.Server('localhost',3000);
+var server = new Hapi.Server('localhost',process.env.VCAP_APP_PORT || 3000);
 
 server.route({
     method: 'GET',
