@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-cloudfoundry",
+  "version": "0.0.0",
+  "description": "Testing Cloud Foundry's nodejs support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notyalca/nodejs-cloudfoundry.git"
+  },
+  "author": "Allen Clayton",
+  "license": "GNU GPL 2.0",
+  "bugs": {
+    "url": "https://github.com/notyalca/nodejs-cloudfoundry/issues"
+  },
+  "homepage": "https://github.com/notyalca/nodejs-cloudfoundry",
+  "dependencies": {
+    "hapi":"7.5.x"
+  }
+}
