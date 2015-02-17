@@ -16,6 +16,10 @@
     "url": "https://github.com/notyalca/nodejs-cloudfoundry/issues"
   },
   "homepage": "https://github.com/notyalca/nodejs-cloudfoundry",
+  "engines": {
+    "node":"0.10.24",
+    "npm":"1.3.21"
+  },
   "dependencies": {
     "hapi":"7.5.x"
   }

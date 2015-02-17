@@ -1,6 +1,6 @@
 var Hapi = require('hapi');
 
-var server = new Hapi.Server(process.env.VCAP_APP_HOST || 'localhost',process.env.VCAP_APP_PORT || 3000);
+var server = new Hapi.Server(process.env.VCAP_APP_HOST || 'localhost', process.env.VCAP_APP_PORT || 3000);
 
 server.route({
     method: 'GET',
@@ -12,9 +12,9 @@ server.route({
 
 server.route({
     method: 'GET',
-    path: '/health',
+    path: '/{name}',
     handler: function (request, reply) {
-        reply({"status":"healthy"});
+        reply('Greetings and Salutations, ' + encodeURIComponent(request.params.name) + '!');
     }
 });
 
