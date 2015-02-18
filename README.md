@@ -1,5 +1,5 @@
 # nodejs-cloudfoundry
-Using a basic nodejs hapi server to test how easily nodejs applications can be installed on Pivotal's Cloud Foundry (Pivotal Web Services).
+Using a basic Node.js [hapi](http://hapijs.com/) server to test how easily Node.js applications can be installed on Pivotal's Cloud Foundry (Pivotal Web Services).
 
 ## Available Routes
 /
