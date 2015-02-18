@@ -3,13 +3,16 @@ Using a basic nodejs hapi server to test how easily nodejs applications can be i
 
 ## Available Routes
 /
+
 /{name}
 
 ## Pivotal-specific code
-index.js line 3 shows how to get the host and port from Pivotal's environment variables. See http://docs.run.pivotal.io/devguide/deploy-apps/environment-variable.html
+index.js line 3 shows how to get the host and port from Pivotal's environment variables.
+
+ See [Cloud Foundry Environment Variables | Pivotal Docs](http://docs.run.pivotal.io/devguide/deploy-apps/environment-variable.html)
 
 ## Install sequence
-* Sign up for an account on https://run.pivotal.io/
+* Sign up for an account on [Pivotal Web Services](https://run.pivotal.io/)
 * Download and install the CLI
 * Login through the CLI: `cf login -a https://api.run.pivotal.io`
 * Clone this repo `git clone https://github.com/notyalca/nodejs-cloudfoundry.git
